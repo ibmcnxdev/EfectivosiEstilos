@@ -20,7 +20,7 @@ var waitFor = function (callback, elXpath, maxInter, waitTime) {
 if (typeof (dojo) != "undefined") {
     dojo.place(
         //        "<link rel=\"stylesheet\" type=\"text/css\" href=\"/files/muse-static/samples/profiles/profilesCustomization.css\"></link>",
-        "<link rel=\"stylesheet\" type=\"text/css\" href=\"/files/muse-static/css/sinapsis.css\"></link>",
+        "<link rel=\"stylesheet\" type=\"text/css\" href=\"/files/customizer/css/sinapsis.css\"></link>",
         dojo.doc.head,
         "last"
     );
