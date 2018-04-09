@@ -1,0 +1,20 @@
+.search-history-view-ui .lotusui30 .icSearchPaneButton {
+    background-color: #3e9ad5;
+    outline: #9a9a9a solid 1px;
+}
+
+.ics-scbanner .navmenu.rd .navsimplelist > li a.selected {
+    border-left: 4px solid #3e9ad5;
+    padding-left: 8px;
+}
+
+.ics-scbanner {
+    background-color: #3e9ad5 !important;
+}
+
+.lotusui30 {
+    background: url("http://jleon.mybluemix.net/apps/customizer/img/efectivosi/Sinapsis.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}

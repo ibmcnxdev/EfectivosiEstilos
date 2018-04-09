@@ -1,15 +1,15 @@
 .search-history-view-ui .lotusui30 .icSearchPaneButton {
-    background-color: #3e9ad5;
+    background-color: #3E9AD5;
     outline: #9a9a9a solid 1px;
 }
 
 .ics-scbanner .navmenu.rd .navsimplelist > li a.selected {
-    border-left: 4px solid #3e9ad5;
+    border-left: 4px solid #3E9AD5;
     padding-left: 8px;
 }
 
 .ics-scbanner {
-    background-color: #3e9ad5 !important;
+    background-color: #3E9AD5 !important;
 }
 
 .lotusui30 {
@@ -17,4 +17,13 @@
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center top;
+}
+
+.lotusStream #activityStreamMain.lotusWidgetBody .stream-finLeft,
+.lotusStream #activityStreamMain.lotusWidgetBody .stream-finRight {
+    background: #3E9AD5 !important;
+}
+
+.lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging {
+    background: #3E9AD5 !important;
 }
