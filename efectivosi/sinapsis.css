@@ -18,3 +18,19 @@
     background-repeat: no-repeat;
     background-position: center top;
 }
+
+
+/* Oculta el menú "Efectivo Si" */
+.ics-scbanner .org {    
+    display: none;
+}
+/* Oculta el menú "Reuniones" */
+.ics-scbanner .stmeetingshost {    
+    display: none;
+}
+/* Oculta el menú "Albergar una reunión" */
+ics-scbanner .stmeetings {
+    display: none;
+}
+
+
