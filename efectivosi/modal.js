@@ -4,7 +4,7 @@ var modal = document.getElementById('lotusFrame');
 
 function loadModal() {
     var node = document.createElement("div");
-    node.innerHTML = '<div class="modal-content"><span onclick="closeIt()" class="close">&times</span>'+modaltext+'<p><button onclick="closeIt()">Aceptar</button></p></div>';
+    node.innerHTML = '<div class="modal-content">'+modaltext+'<p><button onclick="closeIt()">Aceptar</button></p></div>';
     node.id = "myModal";
     node.classList.add('modal');
     document.body.appendChild(node);
@@ -23,7 +23,7 @@ function acceptIt() {
 }
 
 function okSet() {
-	setCookie('status', 'accepted', 30);
+	setCookie("status - "+lconn.homepage.userName, 'accepted', 30);
 }
 
 
@@ -52,7 +52,7 @@ function getCookie(cname) {
 }
 
 function checkCookie() {
-    var status=getCookie("status");
+    var status=getCookie("status - "+lconn.homepage.userName);
     if (status == "accepted" ) {
         //alert("The status is " + status);
     } else {
