@@ -40,21 +40,3 @@
     border-radius: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(enabled=false)";
 }
-
-/* En la página de Inicio Oculta el Widget de Reuniones */
-div#e4b6e1b6-34e8-4753-acfc-a19a930e1dc5_container {
-    display: none;
-}
-
-/* En la página de Inicio Oculta el Widget de Sucesos */
-div#1cd9c1b3-698e-437e-9f54-d19ddb365619_container {
-    display: none;
-}
-
-
-
-
-
-
-
-
