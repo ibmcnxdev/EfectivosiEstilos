@@ -33,7 +33,7 @@
     display: none;
 }
 
-/* Cambia el color de una barra dentro de la página inicio
+/* Cambia el color de una barra dentro de la página inicio */
 .lotusui30 .lotusStream #activityStreamMain.lotusWidgetBody .streamHeaderWrapper .lotusPaging {
     background: #3e9ad5;
     border: 0;
