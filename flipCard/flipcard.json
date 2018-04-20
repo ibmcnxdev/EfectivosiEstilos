@@ -1,0 +1,23 @@
+{
+  "extensions": [
+	{
+      "application": "[Your Name] Flip Card Sample",
+      "payload": {
+        "match": {
+          "user-name": "[Your Name]"
+        },
+        "include-files": [
+          "samples/flipCard/commListCardsFlipStyle.user.js"
+        ]
+      },
+      "name": "[Your Name] commListCardsFlipStyle Extension",
+      "type": "com.ibm.communities"
+    }
+  ],
+  "name": "[Your Name] Flip Card Sample",
+  "description": "[Your Name] FlipCard Customization Sample",
+  "services": [
+    "Muse"
+  ],
+  "title": "[Your Name] FlipCard Customization Sample"
+}
