@@ -1,0 +1,15 @@
+.ics-viewer-toolbar {
+  display: none;
+}
+
+#version {
+    display: none;
+  }
+
+#share {
+  display: none;
+}
+
+#about {
+    display: none;
+}
