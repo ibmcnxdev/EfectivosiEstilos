@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 var link = document.createElement('link');
 link.setAttribute('rel', 'stylesheet');
 link.setAttribute('type', 'text/css');
-link.setAttribute('href', '/files/customizer/efectivosi/nodownload.css?repoName=EfectivosiEstilos');
+link.setAttribute('href', '/files/customizer/nodownload/nodownload.css?repoName=EfectivosiEstilos');
 document.getElementsByTagName('head')[0].appendChild(link);  
 });
 

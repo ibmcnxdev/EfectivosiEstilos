@@ -19,7 +19,6 @@ var waitFor = function (callback, elXpath, maxInter, waitTime) {
 
 if (typeof (dojo) != "undefined") {
     dojo.place(
-        //        "<link rel=\"stylesheet\" type=\"text/css\" href=\"/files/customizer/samples/profiles/profilesCustomization.css\"></link>",
         "<link rel=\"stylesheet\" type=\"text/css\" href=\"/files/customizer/efectivosi/sinapsis.css?repoName=EfectivosiEstilos\"></link>",
         dojo.doc.head,
         "last"
