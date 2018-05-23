@@ -18,36 +18,42 @@
 // ==/UserScript==
 
 var titulos = [
-    "Nueva Forma de Trabajar",
-    "IBM Cloud",
-    "Mi compania HM",
-    "Semana de la Salud",
-    "Egresados Universitarios",
-    "Recursos Humanos IBM",
-    "Yo sé quien sabe lo que usted no sabe",
-    "Fábrica de Cajas"
+    "Comunidad Efectivo Sí",
+    "Capital Humano",
+    "Canales",
+    "Operaciones",
+    "Procesos",
+    "Proyectos",
+    "Marketing",
+    "Gestión Financiera",
+    "Sistemas",
+    "Auditoría Interna"
 ];
 
 var commids = [
-    "7d04739c-be2e-476f-9423-fc559de80cd9",
-    "7414b19c-98d2-4f2c-b145-b86b92471e68",
-    "34749635-8269-4ac8-92a9-150e6de762bb",
-    "b0a9f5ab-ae93-4881-a3b0-6bc570c3ccaf",
-    "1e50397b-8f8b-41db-b69f-b838b8916fe9",
-    "9aaf9f0f-06b6-4c1d-b93c-615c4ee646e8",
-    "14deabef-1e21-4fdc-8950-230b2b461f10",
-    "2656dd49-5f9a-449c-859d-bda5781c625e"
+    "51ca593a-c2a5-4b19-a296-12ffed1752ff",
+    "89cc0fab-9f38-4005-ab3b-fedb2d1b8587",
+    "d2f0a5c2-dcee-4921-9f8f-df3020aaab47",
+    "fc06034f-6f8d-4d79-96ca-265040cab564",
+    "2c8b0960-8dd2-4b1c-97de-74bf2eedd773",
+    "b9fee184-1349-4e9d-8d06-bee8a142503c",
+    "b94cc4d5-54d2-4f90-9223-93a867039815",
+    "433473e5-7f8d-4372-a774-46c264d5f47f",
+    "eeab428a-056e-4834-9c6a-8a16f1ae4c6d",
+    "cea449f4-1335-4431-815f-76c25c0206c7"
 ];
 
 var commdescs = [
-    "Una nueva forma de trabajar para todos",
-    "Todos sobre la nube",
-    "Comunicacion interna de historiales",
-    "Todo sobre la semana de la salud",
-    "Comunidad de egresados universitarios",
-    "Comunidad oficial de RRHH",
-    "Aprenda como buscar y sepa a quien preguntar",
-    "El emocionante proceso de fabricación de cajas"
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
 ];
 
 var checkExist = setInterval(function() {
@@ -59,7 +65,7 @@ var checkExist = setInterval(function() {
         var i, cont = 0;
         var html = `
         <h2 class="lotusHeading" id="lotusHeadingH2ID" style="padding: 5px 0px 22px;">
-            <span class="lotusText">Comunidades destacadas</span>
+            <span class="lotusText">Comunidades Destacadas</span>
         </h2>
         <table  class="lotusTable" role="presentation" cellspacing="0" cellpadding="0" border="0"> 
         <tbody>
@@ -111,7 +117,7 @@ function genHTML(titulo, commid, descripcion) {
                         </span>
                     </div>
                     <div class="lotusLastCell" dojoattachpoint="detailsSection" style="">
-                        <p dojoattachpoint="placeDescNode" class="bidiAware">Comunidad destacada</p>
+                        <p dojoattachpoint="placeDescNode" class="bidiAware">Comunidad Oficial</p>
                     </div>
                 </td>
     `;
