@@ -63,34 +63,34 @@ var checkExist = setInterval(function() {
         //node.innerHTML = html;
 
         var i, cont = 0;
-        var html = `
-        <h2 class="lotusHeading" id="lotusHeadingH2ID" style="padding: 5px 0px 22px;">
-            <span class="lotusText">Comunidades Destacadas</span>
-        </h2>
-        <table  class="lotusTable" role="presentation" cellspacing="0" cellpadding="0" border="0"> 
-        <tbody>
-        `;
+        var html = ' \
+        <h2 class="lotusHeading" id="lotusHeadingH2ID" style="padding: 5px 0px 22px;"> \
+            <span class="lotusText">Comunidades destacadas</span> \
+        </h2> \
+        <table  class="lotusTable" role="presentation" cellspacing="0" cellpadding="0" border="0"> \
+        <tbody> \
+        ';
         for (i = 0; i < titulos.length; i++) {
             if (cont == 0 ) {
-                var html = html + `<tr class="placeRow lotusFirst" role="article" aria-labelledby="lconn_communities_catalog_widgets_PlaceDisplayWidget_1-title">`;
+                var html = html + '<tr class="placeRow lotusFirst" role="article" aria-labelledby="lconn_communities_catalog_widgets_PlaceDisplayWidget_1-title">';
                 var html = html + genHTML(titulos[i], commids[i], commdescs[i]);
                 cont++;
             } else if (cont == 2 ) {
                 var html = html + genHTML(titulos[i], commids[i], commdescs[i]);
-                var html = html + `</tr>`;
+                var html = html + '</tr>';
                 cont = 0;
             } else {
                 var html = html + genHTML(titulos[i], commids[i], commdescs[i]);
                 cont++;
             }
         }
-        var html = html + `
-        </tbody>
-        </table>
-        <h2 class="lotusHeading" id="lotusHeadingH2ID" style="padding: 5px 0px 5px;">
-            <span class="lotusText">Comunidades</span>
-        </h2>
-        `;
+        var html = html + ' \
+        </tbody> \
+        </table> \
+        <h2 class="lotusHeading" id="lotusHeadingH2ID" style="padding: 5px 0px 5px;"> \
+            <span class="lotusText">Comunidades</span> \
+        </h2> \
+        ';
         node.innerHTML = html;
         node.id = "pinnedComms";
         xelement.appendChild(node);
@@ -99,27 +99,27 @@ var checkExist = setInterval(function() {
 }, 100);
 
 function genHTML(titulo, commid, descripcion) {
-    var html = `
-                <td class="lotusFirstCell" dojoattachpoint="communityIcon" width="35px">
-                    <img style="border-radius: 50%;" src="/communities/service/html/image?communityUuid=`+commid+`" alt="" role="presentation" width="64" height="64">
-                </td>
-                <td class="lotusFirstCell"> 
-                    <h4>
-                        <span id="lconn_communities_catalog_widgets_PlaceDisplayWidget_1-title" dojoattachpoint="placeLinkNode">
-                            <a dojoattachpoint="placeTitleLink" href="https://apps.na.collabserv.com/communities/service/html/communitystart?communityUuid=`+commid+`" target="_self" aria-describedby="lconn_communities_catalog_widgets_PlaceDisplayWidget_1sourceType" class="bidiAware" style="word-break: break-all; word-break: break-word;">`+titulo+`</a>
-                        </span>
-                    </h4>
-                    <div class="lotusMeta">
-                        <span role="list">
-                            <span role="listitem" dojoattachpoint="personPlaceHolder">
-                            `+descripcion+`
-                            </span>
-                        </span>
-                    </div>
-                    <div class="lotusLastCell" dojoattachpoint="detailsSection" style="">
-                        <p dojoattachpoint="placeDescNode" class="bidiAware">Comunidad Oficial</p>
-                    </div>
-                </td>
-    `;
+    var html = ' \
+                <td class="lotusFirstCell" dojoattachpoint="communityIcon" width="35px"> \
+                    <img style="border-radius: 50%;" src="/communities/service/html/image?communityUuid='+commid+'" alt="" role="presentation" width="64" height="64"> \
+                </td> \
+                <td class="lotusFirstCell"> \
+                    <h4> \
+                        <span id="lconn_communities_catalog_widgets_PlaceDisplayWidget_1-title" dojoattachpoint="placeLinkNode"> \
+                            <a dojoattachpoint="placeTitleLink" href="https://apps.na.collabserv.com/communities/service/html/communitystart?communityUuid='+commid+'" target="_self" aria-describedby="lconn_communities_catalog_widgets_PlaceDisplayWidget_1sourceType" class="bidiAware" style="word-break: break-all; word-break: break-word;">'+titulo+'</a> \
+                        </span> \
+                    </h4> \
+                    <div class="lotusMeta"> \
+                        <span role="list"> \
+                            <span role="listitem" dojoattachpoint="personPlaceHolder"> \
+                            '+descripcion+' \
+                            </span> \
+                        </span> \
+                    </div> \
+                    <div class="lotusLastCell" dojoattachpoint="detailsSection" style=""> \
+                        <p dojoattachpoint="placeDescNode" class="bidiAware">Comunidad destacada</p> \
+                    </div> \
+                </td> \
+    ';
     return(html);
 }
