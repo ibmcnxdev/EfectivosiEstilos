@@ -12,7 +12,7 @@
     script.onload = function(){
         // remote script has loaded
     };
-    script.src = 'https://www.googletagmanager.com/gtag/js?id=<ID de Seguimiento>';
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=UA-129630359-1';
     d.getElementsByTagName('head')[0].appendChild(script);
 }(document));
 
@@ -20,4 +20,4 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 
-gtag('config', '<ID de Seguimiento>');
+gtag('config', 'UA-129630359-1');
