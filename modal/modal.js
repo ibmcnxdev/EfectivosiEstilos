@@ -40,7 +40,7 @@ Tanto la información como los documentos compartidos por alguno de los usuarios
 El colaborador que realice una publicación, deberá hacerlo en primera persona, aportando valor en cada uno de los comentarios, facilitando informaciones y perspectivas contrastadas. Cada uno es responsable de sus aportes y de las eventuales consultas/comentarios que surjan a partir de ello.<br> \
 Este espacio constituye un foro de intercambio de opiniones para el debate constructivo, no es el ámbito apropiado para crear polémica, descalificar a otros usuarios o a terceros, tampoco es ámbito para realizar reclamos y/o presentar quejas, pudiendo estos ser canalizados por los medios que la compañía establece para tal fin.<br> \
 El lenguaje a utilizarse debe ser apropiado para el ámbito laboral. Queda terminantemente  prohibido insultar, agredir o realizar publicaciones que impliquen algún tipo de discriminación.<br> \
-El comportamiento dentro de la plataforma debe responder a los lineamientos establecidos en el "Código de Ética de CFA" (5107).<br> \
+El comportamiento dentro de la plataforma debe responder a los lineamientos establecidos en el "Código de Ética de CFA".<br> \
 </p><br> \
 \
 <p><u><b>Restricciones a tener en cuenta</b></u></p> \
@@ -50,7 +50,7 @@ El comportamiento dentro de la plataforma debe responder a los lineamientos esta
 <p><u><b>Clasificación del Nivel de Confidencialidad de la Información</b></u> \
 </p> \
 <p style="align: justify; text-indent: 50px;">CFA identifica y agrupa la información en 3 grandes grupos según su importancia, valor y grado de sensibilidad: <u><b>Información CONFIDENCIAL, RESTRINGIDA y PÚBLICA.</b></u> En función de ello, los colaboradores deberán tener en cuenta esta clasificación a la hora de realizar publicaciones en la plataforma SINAPSIS.</p> \
-<p style="align: justify; text-indent: 50px;">En la sección "Gestión de Riesgos de TI - SI (5631)" punto 2.2 del manual,  se detalla la clasificación del nivel de confidencialidad de la información. Todos aquellos documentos o información que cumplan con alguna de estas características no podrán ser compartidos a través de SINAPSIS. \
+<p style="align: justify; text-indent: 50px;">En la sección "Gestión de Riesgos de TI - SI (5361)" punto 2.2 del manual,  se detalla la clasificación del nivel de confidencialidad de la información. Todos aquellos documentos o información que cumplan con alguna de estas características no podrán ser compartidos a través de SINAPSIS. \
 </p><br> \
 \
 <p><u>A) Información Confidencial de CFA: </u></p> \
@@ -64,7 +64,17 @@ El comportamiento dentro de la plataforma debe responder a los lineamientos esta
 <br> \
 <p style="align: justify; text-indent: 50px;">Las comunidades oficiales de cada área serán administradas por los colaboradores correspondientes a cada gerencia. Los administradores de cada comunidad serán los responsables de administrar la información que se publique pudiendo eliminar o denunciar todo comportamiento que no cumpla con la normativa de la herramienta como así también con los términos y condiciones de uso de la misma.</p> \
 \
-<p style="align: justify; text-indent: 50px;">El colaborador suscribe y adhiere a la Plataforma Sinapsis de Efectivo Sí, mediante la "aceptación" o "confirmación" de las condiciones enunciadas anteriormente.</p><br><br> \
+<p style="align: justify; text-indent: 50px;"><u><b>Código de Ética y Manual de Prevención de Lavado de Activos y Financiación del Terrorismo</b></u></p> \
+\
+<p style="align: justify; text-indent: 50px;">Dejo constancia de estar al tanto del Código de Ética y del Manual de Prevención de Lavado de Activos y Financiación del Terrorismo. Asimismo, me comprometo a cumplir lo detallado en los mismos.</p> \
+\
+<p style="align: justify; text-indent: 50px;">Hacé click acá para conocer más detalles:</p> \
+\
+<p style="align: justify; text-indent: 50px;"><a target="_blank" href="http://sitio:8089/coress20/corexpress.asp?opt=CC-11527-NORMA">Nuestro Código de ética </a>  </p> \
+\
+<p style="align: justify; text-indent: 50px;"><a target="_blank"  	href="http://sitio:8089/coress20/corexpress.asp?opt=CC-11885-MN">Nuestro Manual de Prevención de Lavado de Activos y Financiación del Terrorismo </a>  </p> \
+\
+<p style="align: justify; text-indent: 50px;">El colaborador suscribe y adhiere a lo anteriormente señalado tanto en el apartado <u><b>Código de Ética y Manual de Prevención de Lavado de Activos y Financiación del Terrorismo, así como también, en términos y condiciones Sinapsis</b></u> mediante la "aceptación" o "confirmación" de las condiciones enunciadas anteriormente.</p><br><br> \
 ';
 //------------------------------------------------------------------------------------
 
